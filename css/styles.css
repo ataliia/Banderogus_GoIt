@@ -16,6 +16,7 @@ body {
 }
 
 .wrapper {
+  position: relative;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -62,4 +63,165 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #fff;
+}
+
+.goit-logo {
+  position: absolute;
+  top: 32px;
+  left: 0;
+}
+
+.facts-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.facts {
+  padding-top: 48px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.facts-trezub {
+  margin-bottom: 24px;
+}
+
+.facts-dscr {
+  width: 772px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  margin: auto;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.facts-item-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #1b1d1f;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.facts-item-dscr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.facts-item {
+  width: calc((100% / 3) - (24px * 2) / 3);
+}
+
+.form-container {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #a5deff 0%, #fcfefe 100%);
+}
+
+.form {
+  box-sizing: border-box;
+
+  background: #fff;
+  border-radius: 40px;
+  padding: 32px 60px 60px 60px;
+}
+
+.form-trezub {
+  margin-bottom: 32px;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.form-dscr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-field-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1b1d1f;
+  margin-bottom: 8px;
+}
+
+.form-field-name {
+  margin-bottom: 24px;
+}
+
+.form-input {
+  width: 100%;
+  border: 1px solid #005bbb;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1b1d1f;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  background: #ff6b0a;
+}
+
+.form-field-email {
+  margin-bottom: 48px;
+}
+
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
 }
